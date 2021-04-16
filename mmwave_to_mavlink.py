@@ -109,7 +109,7 @@ sched.start()
 
 
 # Change the configuration file name
-configFileName = '/home/pi/mm_wave_radar/config_file.cfg'
+configFileName = '/home/pi/mm-Wave-Radar-IWR6843AOPEVM/config_file.cfg'
 CLIport = {}
 Dataport = {}
 byteBuffer = np.zeros(2**15,dtype = 'uint8')
