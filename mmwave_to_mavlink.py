@@ -199,7 +199,7 @@ def parseConfigFile(configFileName):
 # ------------------------------------------------------------------
 
 # Funtion to read and parse the incoming data
-def readAndParseData18xx(Dataport, configParameters):
+def readAndParseData68xx(Dataport, configParameters):
     global byteBuffer, byteBufferLength
     
     # Constants
@@ -353,7 +353,7 @@ def update():
    
       
     # Read and parse the received data
-    dataOk, frameNumber, detObj = readAndParseData18xx(Dataport, configParameters)
+    dataOk, frameNumber, detObj = readAndParseData68xx(Dataport, configParameters)
     
     if dataOk and len(detObj["x"])>0:
         print(detObj)
