@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # Change the configuration file name
-configFileName = 'config_file.cfg'
+configFileName = '/home/pi/mm_Wave_Radar_IWR6843AOPEVM/config_file.cfg'
 CLIport = {}
 Dataport = {}
 byteBuffer = np.zeros(2**15,dtype = 'uint8')
